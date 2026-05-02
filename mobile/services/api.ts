@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // 用 127.0.0.1 而不是 localhost，防止代理工具拦截
-const BASE_URL = "http://127.0.0.1:8000/api/v1";
+const BASE_URL = "https://stock-farm-backend.onrender.com/api/v1";
 
 export const api = axios.create({
   baseURL: BASE_URL,
